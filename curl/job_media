@@ -1,0 +1,18 @@
+curl 'https://twitter.com/i/api/2/timeline/media/###uid###.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweet=true&count=###cou###&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"' \
+  -H 'x-twitter-client-language: de' \
+  -H 'x-csrf-token: ddfa97cecf3fbe1d58d4f12bcfa0bca497691892a871d4be5c9c6f5378174e548fc452abb3d46cfca5f481e4719a497f5cced4328f0d6b852692b54435c3ed1ed801e6356e5ebb29049cee1b2facbbaf' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.47 Safari/537.36' \
+  -H 'x-twitter-auth-type: OAuth2Session' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/elonmusk?lang=de' \
+  -H 'accept-language: de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'cookie: personalization_id="v1_4FdPfmva+4spOXgPz3qxmQ=="; guest_id=v1%3A161357319455677620; _ga=GA1.2.1338525470.1613573192; dnt=1; ads_prefs="HBISAAA="; kdt=FEKdoJMyTVfOskyH8dSgJbXxQP0ARmm7voGyO1Ap; remember_checked_on=1; auth_token=be92548a07c773c79f3414426f8da7bc159be1d0; twid=u%3D2787819548; ct0=ddfa97cecf3fbe1d58d4f12bcfa0bca497691892a871d4be5c9c6f5378174e548fc452abb3d46cfca5f481e4719a497f5cced4328f0d6b852692b54435c3ed1ed801e6356e5ebb29049cee1b2facbbaf; at_check=true; _gid=GA1.2.1773459180.1613998748; des_opt_in=Y; eu_cn=Y; __utmc=43838368; lang=de; mbox=PC#a80a69b9315d418e83b07a30e3ec3900.37_0#1677246354|session#dde0641099304ea990cc92f86e7d8bda#1614003413; __utma=43838368.1338525470.1613573192.1614000389.1614005500.4; __utmz=43838368.1614005500.4.4.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=43838368.1.9.1614005500; external_referer=padhuUp37zjgzgv1mFWxJ12Ozwit7owX|0|8e8t2xd8A2w%3D' \
+  --compressed
