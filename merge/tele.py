@@ -2,8 +2,11 @@ import telebot
 import numpy as np
 import os
 import asyncio
+with open("../secret","r") as f:
+    secret=f.read()
 
-bot = telebot.TeleBot("1693773077:AAEAjptVHlL9id1Om435t4n3l98A9XuFUO8")
+
+bot = telebot.TeleBot(secret)
 
 perm=[]
 if os.path.isfile("perma.npz"):

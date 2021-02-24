@@ -1,6 +1,9 @@
 import telebot
+with open("../secret","r") as f:
+    secret=f.read()
 
-bot = telebot.TeleBot("1693773077:AAEAjptVHlL9id1Om435t4n3l98A9XuFUO8")
+
+bot = telebot.TeleBot(secret)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):

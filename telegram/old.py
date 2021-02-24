@@ -13,6 +13,9 @@ Basic Echobot example, repeats messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
+with open("../secret","r") as f:
+    secret=f.read()
+
 
 import logging
 
@@ -47,7 +50,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 def main():
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1693773077:AAEAjptVHlL9id1Om435t4n3l98A9XuFUO8")
+    updater = Updater(secret)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
